@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth/auth.iml" filepath="$PROJECT_DIR$/auth/auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloud-admin.iml" filepath="$PROJECT_DIR$/.idea/cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-core/common-core.iml" filepath="$PROJECT_DIR$/common/common-core/common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-datasource/common-datasource.iml" filepath="$PROJECT_DIR$/common/common-datasource/common-datasource.iml" />
+    </modules>
+  </component>
+</project>
