@@ -2,5 +2,5 @@ com.tellhow.admin.common.core.config.TaskExecutorConfiguration
 com.tellhow.admin.common.core.config.JacksonConfiguration
 com.tellhow.admin.common.core.config.RedisTemplateConfiguration
 com.tellhow.admin.common.core.config.RestTemplateConfiguration
-com.tellhow.admin.common.core.utils.SpringContextHolder
+com.tellhow.admin.common.core.util.SpringContextHolder
 com.tellhow.admin.common.core.config.WebMvcConfiguration

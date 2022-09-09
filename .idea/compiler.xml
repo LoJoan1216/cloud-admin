@@ -6,16 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth" />
+        <module name="common-mybatis" />
+        <module name="upms-api" />
         <module name="common-datasource" />
+        <module name="common-security" />
+        <module name="auth" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="auth" target="1.8" />
-      <module name="cloud-admin" target="1.8" />
-      <module name="common" target="1.8" />
-      <module name="common-core" target="1.8" />
-      <module name="common-datasource" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

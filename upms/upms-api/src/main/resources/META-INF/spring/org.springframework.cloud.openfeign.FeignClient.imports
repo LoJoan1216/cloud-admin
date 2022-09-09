@@ -1,0 +1,7 @@
+com.tellhow.admin.upms.api.feign.RemoteClientDetailsService
+com.tellhow.admin.upms.api.feign.RemoteDictService
+com.tellhow.admin.upms.api.feign.RemoteDeptService
+com.tellhow.admin.upms.api.feign.RemoteLogService
+com.tellhow.admin.upms.api.feign.RemoteTokenService
+com.tellhow.admin.upms.api.feign.RemoteUserService
+com.tellhow.admin.upms.api.feign.RemoteParamService

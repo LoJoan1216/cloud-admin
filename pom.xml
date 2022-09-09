@@ -12,6 +12,7 @@
     <modules>
         <module>common</module>
         <module>auth</module>
+        <module>upms</module>
     </modules>
     <properties>
         <spring-boot.version>2.7.3</spring-boot.version>
@@ -82,14 +83,14 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--pig 公共版本定义-->
-<!--            <dependency>-->
-<!--                <groupId>com.pig4cloud</groupId>-->
-<!--                <artifactId>pig-common-bom</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
+            <!--公共版本定义-->
+            <dependency>
+                <groupId>com.tellhow</groupId>
+                <artifactId>common-bom</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!-- spring boot 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
