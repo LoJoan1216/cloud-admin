@@ -17,6 +17,8 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
+@Import({ AdminResourceServerAutoConfiguration.class, AdminResourceServerConfiguration.class,
+        AdminFeignClientConfiguration.class })
 public @interface EnableAdminResourceServer {
 
 
